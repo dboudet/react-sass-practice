@@ -1,0 +1,22 @@
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    // flex-wrap:wrap;
+    background-color: $pale-color;
+
+    &__item {
+        flex-basis: 300px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px;
+        margin: 3rem;
+        background-color: $red-color;
+
+        &--img {
+            max-width: 150px;
+        }
+        &--p {
+            color: $pale-color;
+        }
+    }
+}
