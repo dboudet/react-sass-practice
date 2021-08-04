@@ -1,3 +1,28 @@
+.bg__video {
+    position: relative;
+    bottom:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+
+    &--content {
+        height: 80vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    &--overlay {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        color: #FFFFFF;
+        z-index: 9;
+        padding:40px 40px;
+    }
+}
 .cards__section {
     display:flex;
     justify-content: space-between;
